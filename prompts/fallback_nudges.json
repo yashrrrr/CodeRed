@@ -1,0 +1,37 @@
+[
+  {
+    "id": "fallback_001",
+    "channel": "in-app",
+    "type": "motivation",
+    "content": "🌟 Don't give up, {name}! You're making great progress in your learning journey. You're {completion}% complete - every small step counts towards your goals. Take a moment to review your recent lessons and keep moving forward!",
+    "prompt_version": "fallback_v1.0"
+  },
+  {
+    "id": "fallback_002",
+    "channel": "whatsapp",
+    "type": "reminder",
+    "content": "📚 Hi {name}! We noticed you haven't logged in recently. Your learning momentum is important - even 15 minutes today can make a difference. You're {completion}% through your journey. Jump back in and continue where you left off!",
+    "prompt_version": "fallback_v1.0"
+  },
+  {
+    "id": "fallback_003",
+    "channel": "email",
+    "type": "encouragement",
+    "content": "Subject: You're Closer Than You Think, {name}! 🎯\n\nHi {name},\n\nWe believe in your potential! You're {completion}% complete in your learning journey. Learning new skills takes time and persistence. Remember why you started this journey and take the next step today. Your future self will thank you.\n\nBest regards,\nThe Learning Team",
+    "prompt_version": "fallback_v1.0"
+  },
+  {
+    "id": "fallback_004",
+    "channel": "in-app",
+    "type": "completion_boost",
+    "content": "🎉 Excellent progress, {name}! You're {completion}% complete - you're so close to finishing! Your dedication is paying off. Keep up the momentum and cross that finish line!",
+    "prompt_version": "fallback_v1.0"
+  },
+  {
+    "id": "fallback_005",
+    "channel": "in-app",
+    "type": "quiz_reminder",
+    "content": "📝 Hi {name}, we noticed you might need some practice with quizzes. You're {completion}% through the course - let's strengthen your understanding with some quick review questions!",
+    "prompt_version": "fallback_v1.0"
+  }
+]
