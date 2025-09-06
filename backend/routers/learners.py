@@ -13,10 +13,10 @@ import uuid
 import logging
 
 # Import database and models
-from ..lib_db import get_db
-from ..models import Learner, Nudge, Event
-from ..services.openai_client import generate_nudge, generate_quiz
-from ..lib.risk import compute_risk, compute_and_update_all
+from lib_db import get_db
+from models import Learner, Nudge, Event
+from services.openai_client import generate_nudge, generate_quiz
+from lib.risk import compute_risk, compute_and_update_all
 
 logger = logging.getLogger(__name__)
 

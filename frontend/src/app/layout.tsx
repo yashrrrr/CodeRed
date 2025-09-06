@@ -5,10 +5,10 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Learner Engagement Platform',
-  description: 'Monitor learner risk levels and generate personalized interventions',
-  keywords: ['education', 'learning', 'engagement', 'analytics', 'interventions'],
-  authors: [{ name: 'CodeRed Team' }],
+  title: 'upGrad® Education - India\'s Top Upskilling Platform Online',
+  description: 'upGrad®, Choose from top online programs in AI, Data Science, MBA, Marketing, Tech. ✔ Trusted by 100+Academic & Industry Partners ✔ Career support ✔ Flexible learning.',
+  keywords: ['education', 'upskilling', 'online courses', 'AI', 'Data Science', 'MBA', 'Marketing', 'Tech'],
+  authors: [{ name: 'upGrad Team' }],
 }
 
 export default function RootLayout({
@@ -17,9 +17,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en">
       <body className={inter.className}>
-        <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
+        <div className="min-h-screen bg-white">
           {children}
         </div>
       </body>
