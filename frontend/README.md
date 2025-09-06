@@ -1,17 +1,17 @@
-# Learner Engagement Platform - Frontend
+# upGrad Clone - Frontend
 
-A modern, vibrant React-based dashboard built with Next.js, Tailwind CSS, and Aceternity UI-inspired components for monitoring learner engagement and generating AI-powered interventions.
+A modern, responsive React-based website built with Next.js and Tailwind CSS that replicates the upGrad education platform design and functionality.
 
 ## ✨ Features
 
-- **🎨 Modern UI Design**: Beautiful, responsive interface with glass morphism effects
-- **📊 Real-time Analytics**: Interactive charts and metrics for learner risk assessment
-- **🤖 AI-Powered Nudges**: Generate personalized interventions for learners
-- **📱 Multi-channel Support**: Send nudges via in-app, WhatsApp, or email
-- **🎯 Risk Filtering**: Filter learners by risk level (low, medium, high)
-- **⚡ Real-time Updates**: Live data refresh and status updates
-- **🌙 Dark Theme**: Elegant dark theme with gradient backgrounds
-- **📱 Responsive Design**: Works perfectly on desktop, tablet, and mobile
+- **🎨 Authentic upGrad Design**: Faithful recreation of upGrad's visual identity and layout
+- **📚 Course Showcase**: Display of popular programs including DBA, MBA, Data Science, and AI courses
+- **🏫 University Partnerships**: Showcase of partner universities and institutions
+- **🔍 Search Functionality**: Course search and exploration features
+- **📱 Responsive Design**: Mobile-first design that works on all devices
+- **🎯 Interactive Navigation**: Dropdown menus and smooth user interactions
+- **📊 Statistics Display**: Key metrics and achievements section
+- **💼 Professional Layout**: Clean, modern interface matching upGrad's brand
 
 ## 🚀 Quick Start
 
