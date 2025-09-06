@@ -19,8 +19,8 @@ sys.path.insert(0, backend_path)
 
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
-from lib_db import AsyncSessionLocal, create_tables
-from models import Learner, Nudge
+from ..lib_db import AsyncSessionLocal, create_tables
+from ..models import Learner, Nudge
 
 # Configure logging
 logging.basicConfig(

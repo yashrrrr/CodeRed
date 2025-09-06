@@ -10,7 +10,7 @@ from typing import Dict, Any
 import logging
 
 # Import database utilities
-from backend.lib_db import create_tables
+from .lib_db import create_tables
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -44,7 +44,8 @@ async def startup_event() -> None:
         logger.info("Database tables created successfully")
     except Exception as e:
         logger.error(f"Failed to create database tables: {e}")
-        raise
+        # Don't raise to allow server to start even if DB fails
+        pass
 
 @app.get("/api/health")
 async def health_check() -> Dict[str, Any]:
@@ -61,7 +62,7 @@ async def health_check() -> Dict[str, Any]:
     }
 
 # Import and register routers
-from backend.routers.learners import router as learners_router
+from .routers.learners import router as learners_router
 app.include_router(learners_router, prefix="/api")
 
 if __name__ == "__main__":
