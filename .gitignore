@@ -71,3 +71,5 @@ htmlcov/
 
 # Streamlit
 .streamlit/
+
+frontend/node_modules
