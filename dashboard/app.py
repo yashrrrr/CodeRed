@@ -201,3 +201,18 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# In your_project.py
+import clone_ui
+
+def process_multiple_sites():
+    sites = ["https://site1.com", "https://site2.com"]
+    for i, site_url in enumerate(sites):
+        print(f"Cloning site: {site_url}")
+        # Give each clone a unique directory
+        output_directory = f"clone_output_{i}"
+        clone_ui.run_clone(site_url, output_directory)
+        # You can now add logic to process the files in output_directory
+
+process_multiple_sites()
