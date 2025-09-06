@@ -10,7 +10,7 @@ from typing import Dict, Any
 import logging
 
 # Import database utilities
-from .lib_db import create_tables
+from lib_db import create_tables
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -62,7 +62,7 @@ async def health_check() -> Dict[str, Any]:
     }
 
 # Import and register routers
-from .routers.learners import router as learners_router
+from routers.learners import router as learners_router
 app.include_router(learners_router, prefix="/api")
 
 if __name__ == "__main__":

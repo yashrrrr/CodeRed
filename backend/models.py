@@ -7,7 +7,7 @@ from sqlalchemy import String, Float, Integer, Text, DateTime, JSON, ForeignKey,
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from datetime import datetime
 from typing import Optional, List, Dict, Any
-from .lib_db import Base
+from lib_db import Base
 
 class Learner(Base):
     """
