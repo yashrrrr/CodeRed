@@ -1,0 +1,40 @@
+The Hackathon MVP Tech Stack
+This stack is entirely Python-based, allowing your team to stay within a single language ecosystem, which significantly speeds up development.
+
+Component	Primary Recommendation	Why it's a great choice for a hackathon
+Backend Framework	FastAPI	
+Blazing Speed: FastAPI is one of the fastest Python frameworks available, with performance comparable to NodeJS and Go. It's built for high-performance APIs. <br>    
+
+Rapid Development: It's designed to increase development speed by 200-300%. Features like automatic, interactive API documentation (via Swagger UI) mean you don't waste time writing docs; you can test your endpoints directly in the browser.   
+
+Frontend / Dashboard	Streamlit	
+Incredibly Fast: You can turn data scripts into interactive web apps in minutes, writing only Python. There's no need for front-end experience with HTML, CSS, or JavaScript. <br>    
+
+Made for Data Apps: It's specifically designed for creating data visualization and machine learning dashboards, making it a perfect fit for this project.   
+
+Machine Learning	Scikit-learn	
+User-Friendly & Powerful: Scikit-learn is the go-to library for classic machine learning. It's built for ease of use and supports a wide range of supervised and unsupervised algorithms like Decision Trees and Random Forests, which are well-suited for dropout prediction. <br> Excellent Integration: It integrates seamlessly with other Python data science libraries like Pandas and NumPy.   
+
+Data Handling	Pandas + CSV File	
+Simplicity is Key: For a hackathon, the simplest solution is often the best. You can load your sample dataset from a CSV file directly into a Pandas DataFrame for manipulation and analysis. This requires zero database setup time.   
+
+In-Depth Breakdown & Alternatives
+Backend: FastAPI (or Flask)
+FastAPI is the top choice because it minimizes boilerplate code and its automatic data validation and documentation are massive time-savers in a hackathon setting.   
+
+Alternative: Flask. If your team is more familiar with it, Flask is another excellent choice. It's a lightweight microframework known for its simplicity and flexibility, allowing you to get a basic web server running very quickly.   
+
+Frontend: Streamlit (or Dash)
+Streamlit is ideal for its "magically simple API" that lets you build an app with just a few lines of code. Adding interactive widgets is as simple as declaring a Python variable, which is perfect for quickly building the risk dashboard and micro-quiz interface.   
+
+Alternative: Dash by Plotly. Dash is another powerful, Python-only framework for building analytical web apps. It offers more granular control over the layout and components, which can be useful if you have a very specific design in mind, but may have a slightly steeper learning curve than Streamlit in the first couple of hours.   
+
+Machine Learning: Scikit-learn
+For the predictive model, Scikit-learn is unmatched for this use case. You can import a model like RandomForestClassifier, train it on your Pandas DataFrame, and get predictions in just a few lines of code. This allows you to focus on the logic rather than complex model architecture.   
+
+Data Handling: Pandas + CSV (or SQLite)
+Start with your data in a simple CSV file and load it with Pandas. This is the fastest way to get your data into a usable format for your ML model and dashboard.   
+
+Alternative: SQLite. If you need to store data generated during the hackathon (e.g., quiz results), SQLite is the next logical step. It's a file-based database that's built into Python, so it requires no installation or server setup.   
+
+This stack is designed to help you build an impressive and functional prototype within the 24-hour time limit by leveraging easy-to-use, high-performance, open-source tools.

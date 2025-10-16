@@ -1,0 +1,30 @@
+# Core Backend Dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+sqlalchemy==2.0.23
+aiosqlite==0.19.0
+pydantic==2.5.0
+python-dotenv==1.0.0
+
+# Machine Learning Dependencies - Using latest for Python 3.13 compatibility
+scikit-learn
+pandas
+numpy
+joblib
+matplotlib
+seaborn
+
+# Dashboard Dependencies
+streamlit
+plotly
+altair
+
+# Data Generation
+faker
+
+# HTTP Client
+httpx==0.25.2
+requests==2.31.0
+
+# Date/Time Utilities
+python-dateutil
